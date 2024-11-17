@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+header {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+body::after {
+    content: "";
+    background-image: url("worksbg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a {
+    color: #A020F0;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #C3B1E1;
+}
+
+.navbar li {
+    float: left;
+}
+
+section {
+    height: fit-content;
+}
+
+body {
+    background-color: beige;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.desc {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.webimage img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: whitesmoke;
+}
+
+.imgdsc {
+    text-align: center;
+    padding-bottom: 5px;
+    color: whitesmoke;
+}
